@@ -26,7 +26,7 @@ public class Main {
     cleric.heal("feitiço de luz", 7);
 
   }
-
+//
   public static void heroCall(PlayableCharacter hero){
     if(hero instanceof Warrior warrior){
       System.out.println(warrior.getName() + " é da raça " + hero.getRaces() + " e utiliza " + warrior.getWeapon());
